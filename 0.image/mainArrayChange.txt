@@ -1,0 +1,16 @@
+
+The full list of methods on array instances that change the values or number of values in the array is this one:
+
+1.Array.prototype.push
+2.Array.prototype.pop
+3.Array.prototype.shift
+4.Array.prototype.unshift
+5.Array.prototype.splice
+6.Array.prototype.reverse
+7.Array.prototype.sort
+8.Array.prototype.fill
+9.Array.prototype.copyWithin
+
+Aditionally, changing the length property can remove elements from the array (if you decrease it) or add undefined items to the array (if you increase it).
+
+Finally, changing the properties of the arrays with keys that are positive integer-like strings like '0','1', '3000', etc will change the values at those indexes and possibly increase the length of the array.

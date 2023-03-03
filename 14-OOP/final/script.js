@@ -2,7 +2,7 @@
 
 /*
 ///////////////////////////////////////
-// Constructor Functions and the new Operator
+// Constructor Functions and the new Operator 205
 const Person = function (firstName, birthYear) {
   // Instance properties
   this.firstName = firstName;
@@ -34,7 +34,7 @@ Person.hey = function () {
 Person.hey();
 
 ///////////////////////////////////////
-// Prototypes
+// Prototypes 206
 console.log(Person.prototype);
 
 Person.prototype.calcAge = function () {

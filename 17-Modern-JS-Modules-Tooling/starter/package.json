@@ -1,0 +1,17 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "clean.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Morshalin",
+  "license": "ISC",
+  "dependencies": {
+    "leaflet": "^1.7.1"
+  }
+}
